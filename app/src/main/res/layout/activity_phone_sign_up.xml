@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneSignUp">
+
+
+
+    <TextView
+        android:id="@+id/idtitleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InnfyStays"
+        android:fontFamily="cursive"
+        android:textColor="@color/cursoraccent"
+        android:textSize="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <EditText
+        android:id="@+id/idinputfield"
+        android:layout_width="216dp"
+        android:layout_height="51dp"
+        android:ems="13"
+        android:hint="Phone No / Innfystays Id"
+        android:inputType="phone"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="@color/cursoraccent"
+        android:textCursorDrawable="@color/cursoraccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtitleview"
+        app:layout_constraintVertical_bias="0.771" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idfloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toEndOf="@+id/idinputfield"
+        app:layout_constraintTop_toBottomOf="@+id/idtitleview"
+        app:layout_constraintVertical_bias="0.779"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        tools:ignore="OnClick" />
+
+    <EditText
+        android:id="@+id/idotpedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Otp"
+        android:inputType="number"
+        android:textColor="@color/cursoraccent"
+        android:textCursorDrawable="@color/cursoraccent"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idotpheader"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/idotpheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:textColor="#000000"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtitleview"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <Button
+        android:id="@+id/idresendotpbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintCircleRadius="56dp"
+
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:theme="@style/AppTheme"
+        android:background="@drawable/rounded_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.309"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idotpedittext"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/idokbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:theme="@style/AppTheme"
+        android:background="@drawable/rounded_edittext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.687"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idotpedittext"
+        app:layout_constraintVertical_bias="0.09" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

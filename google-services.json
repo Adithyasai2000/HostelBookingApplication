@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179270367745",
+    "project_id": "innfystays-baf1e",
+    "storage_bucket": "innfystays-baf1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179270367745:android:f829d746f1f26d6cb19e00",
+        "android_client_info": {
+          "package_name": "com.example.innfystays"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179270367745-6vqk4nnfs5ma4k38vi9mphnq415ste0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNBW8Wdj71qQSDg3xpKQKNbZtMHlzuvHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179270367745-6vqk4nnfs5ma4k38vi9mphnq415ste0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

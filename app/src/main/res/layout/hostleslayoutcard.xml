@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/idhstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/whiteaccent"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:text="Manaswini Hostel Manaswini Hostel Manaswini Hostel"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/idhstimg"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:src="@drawable/delhi"
+        android:paddingStart="15dp"
+        android:paddingLeft="15dp"></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idhstaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/cursoraccent"
+                android:text="Address House no etc of total hel including the features"></TextView>
+
+            <TextView
+                android:id="@+id/idhstdts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="15dp"
+                android:textColor="@color/cursoraccent"
+                android:text="Some other layout text "></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RatingBar
+            android:id="@+id/idhstratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            style="@style/AppTheme"
+            android:numStars="5"/>
+        <TextView
+            android:id="@+id/idhstavailability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availability"
+            android:paddingTop="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/cursoraccent"
+            ></TextView>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
